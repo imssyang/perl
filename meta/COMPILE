@@ -1,0 +1,9 @@
+
+https://www.cpan.org/src/README.html
+https://metacpan.org/pod/distribution/perl/INSTALL
+
+# Compile
+./Configure -des -Dprefix=/opt/perl -Dusethreads -Duseshrplib
+make
+make test
+make install
